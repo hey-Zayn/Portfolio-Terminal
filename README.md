@@ -69,15 +69,21 @@ projects - See my projects
 projects
 ```
 
-experience - Check my work history
+banner - Show welcome banner
 ```
-experience 
+banner 
 ```
 
 contact - Get in touch
 ```
 contact
 ```
+
+
 clear - Clear the terminal
+````
+clear
+````
+
 theme [name] - Change terminal theme
-```
+
