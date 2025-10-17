@@ -42,9 +42,9 @@ npm install
 # Start development server
 npm run dev
 
-
+```
 🎮 Available Commands
-
+```
 
 help - Show available commands
 about - Learn about me
@@ -54,3 +54,4 @@ experience - Check my work history
 contact - Get in touch
 clear - Clear the terminal
 theme [name] - Change terminal theme
+```
