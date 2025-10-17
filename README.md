@@ -57,18 +57,26 @@ about - Learn about me
 about
 ```
 
-```
 skills - View my technical skills
-```
 
 ```
+skills 
+```
+
+
 projects - See my projects
 ```
+projects
 ```
+
 experience - Check my work history
 ```
+experience 
 ```
+
 contact - Get in touch
+```
+contact
 ```
 clear - Clear the terminal
 theme [name] - Change terminal theme
