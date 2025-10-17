@@ -45,11 +45,20 @@ npm run dev
 ```
 🎮 Available Commands
 
-
+![Terminal Preview](./public/terminal.png)
 help - Show available commands
 ```
 help 
 ```
+
+neofetch - Show specifications
+```
+neofetch 
+```
+![Terminal Preview](./public/terminal.png)
+
+
+
 
 about - Learn about me
 ```
