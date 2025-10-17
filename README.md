@@ -45,7 +45,7 @@ npm run dev
 ```
 🎮 Available Commands
 
-![Terminal Preview](./public/terminal.png)
+![Terminal Preview](./public/help.png)
 help - Show available commands
 ```
 help 
@@ -55,7 +55,7 @@ neofetch - Show specifications
 ```
 neofetch 
 ```
-![Terminal Preview](./public/terminal.png)
+![Terminal Preview](./public/neofetch.png)
 
 
 
