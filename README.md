@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Terminal Preview](https://via.placeholder.com/800x400/0f0f0f/00ff00?text=Terminal+Portfolio+Preview) <!-- Replace with your actual screenshot -->
+![Terminal Preview](./terminal.png) <!-- Replace with your actual screenshot -->
 
 **A Linux-terminal inspired developer portfolio with interactive command-line interface**
 
