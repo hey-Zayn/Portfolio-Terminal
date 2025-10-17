@@ -59,96 +59,287 @@ const Terminal = () => {
         { type: 'output', content: '  banner    - Show welcome banner' },
       ]
     },
+    // about: {
+    //   description: 'About me',
+    //   action: () => [
+    //     { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+    //     { type: 'output', content: '│                    ABOUT ME                         │', class: 'terminal-bright' },
+    //     { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  👨‍💻 Full-Stack Developer & Creative Coder' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  Hi! I\'m a Zayn Butt, passionate developer who loves building' },
+    //     { type: 'output', content: '  innovative web applications that push the boundaries' },
+    //     { type: 'output', content: '  of what\'s possible with modern web technologies.' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  🎯 Specializing in:' },
+    //     { type: 'output', content: '     • Interactive UI/UX design' },
+    //     { type: 'output', content: '     • Performance optimization' },
+    //     { type: 'output', content: '     • Creative coding & animations' },
+    //     { type: 'output', content: '     • Full-stack development' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  💡 Always learning, always building.' },
+    //   ]
+    // },
     about: {
-      description: 'About me',
+      description: 'Display professional information about me',
       action: () => [
-        { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
-        { type: 'output', content: '│                    ABOUT ME                         │', class: 'terminal-bright' },
-        { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+        { type: 'output', content: '┌─────────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+        { type: 'output', content: '│                    ZAIN UL ABIDEEN                       │', class: 'terminal-bright' },
+        { type: 'output', content: '│               FULL-STACK DEVELOPER                      │', class: 'terminal-bright' },
+        { type: 'output', content: '└─────────────────────────────────────────────────────────┘', class: 'terminal-bright' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  👨‍💻 Full-Stack Developer & Creative Coder' },
+        { type: 'output', content: '  🚀 Passionate Full-Stack Developer specializing in the MERN stack' },
+        { type: 'output', content: '  and Next.js, with expertise in creating dynamic, high-performance' },
+        { type: 'output', content: '  web applications.' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  Hi! I\'m a Zayn Butt, passionate developer who loves building' },
-        { type: 'output', content: '  innovative web applications that push the boundaries' },
-        { type: 'output', content: '  of what\'s possible with modern web technologies.' },
+        { type: 'output', content: '  🎯 TECHNICAL EXPERTISE:' },
+        { type: 'output', content: '     • MERN Stack (MongoDB, Express.js, React, Node.js)' },
+        { type: 'output', content: '     • Next.js & Modern React Ecosystem' },
+        { type: 'output', content: '     • RESTful API Design & Development' },
+        { type: 'output', content: '     • Interactive Animations (GSAP, Three.js)' },
+        { type: 'output', content: '     • Responsive UI/UX with Tailwind CSS' },
+        { type: 'output', content: '     • Database Architecture & Optimization' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  🎯 Specializing in:' },
-        { type: 'output', content: '     • Interactive UI/UX design' },
-        { type: 'output', content: '     • Performance optimization' },
-        { type: 'output', content: '     • Creative coding & animations' },
-        { type: 'output', content: '     • Full-stack development' },
+        { type: 'output', content: '  💼 PROFESSIONAL HIGHLIGHTS:' },
+        { type: 'output', content: '     • 1+ years of professional development experience' },
+        { type: 'output', content: '     • Delivered 40% increase in user engagement' },
+        { type: 'output', content: '     • Built applications for international clients' },
+        { type: 'output', content: '     • Full-stack project lifecycle management' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  💡 Always learning, always building.' },
+        { type: 'output', content: '  🔄 Constantly evolving with emerging technologies and' },
+        { type: 'output', content: '  best practices in web development.' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  📍 Based in Pakistan | Open to Opportunities' },
       ]
     },
+    // skills: {
+    //   description: 'Technical skills',
+    //   action: () => [
+    //     { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+    //     { type: 'output', content: '│                 TECHNICAL SKILLS                    │', class: 'terminal-bright' },
+    //     { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  Frontend Development:' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  React.js / Next.js' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  TypeScript / JavaScript' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  Tailwind CSS / CSS3' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  GSAP / Framer Motion' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  Backend Development:' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  Node.js / Express' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▱▱▱ 75%  PostgreSQL / MongoDB' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  REST / GraphQL APIs' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  Tools & Platforms:' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 95%  Git / GitHub' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  Docker / CI/CD' },
+    //     { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  VS Code / Terminal' },
+    //   ]
+    // },
     skills: {
-      description: 'Technical skills',
+      description: 'Display my technical skills and proficiencies',
       action: () => [
         { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
         { type: 'output', content: '│                 TECHNICAL SKILLS                    │', class: 'terminal-bright' },
         { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  Frontend Development:' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  React.js / Next.js' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  TypeScript / JavaScript' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  Tailwind CSS / CSS3' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  GSAP / Framer Motion' },
+        { type: 'output', content: '  🎯 FRONTEND DEVELOPMENT:' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▰ 95%  React.js / Next.js' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  JavaScript (ES6+) / TypeScript' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▰ 95%  HTML5 / CSS3 / Tailwind CSS' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  GSAP / Three.js / Framer Motion' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  Redux / Zustand State Management' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  Backend Development:' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  Node.js / Express' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▱▱▱ 75%  PostgreSQL / MongoDB' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  REST / GraphQL APIs' },
+        { type: 'output', content: '  ⚙️ BACKEND DEVELOPMENT:' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  Node.js / Express.js' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  MongoDB / Mongoose ODM' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▱▱▱ 75%  MySQL / PostgreSQL' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  RESTful API Design' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  JWT Authentication' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  Tools & Platforms:' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 95%  Git / GitHub' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  Docker / CI/CD' },
-        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  VS Code / Terminal' },
+        { type: 'output', content: '  🛠️ TOOLS & PLATFORMS:' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▰ 95%  Git / GitHub' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▰▱ 90%  Vercel / Netlify' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  VS Code / Linux Terminal' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▱▱▱ 70%  Docker / CI/CD' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  Postman / API Testing' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🎨 DESIGN & CMS:' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 85%  Figma / UI Design' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▱▱▱ 75%  WordPress / Elementor' },
+        { type: 'output', content: '  ▰▰▰▰▰▰▰▰▱▱ 80%  Responsive Web Design' },
       ]
     },
+    // projects: {
+    //   description: 'View projects',
+    //   action: () => [
+    //     { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+    //     { type: 'output', content: '│                    PROJECTS                         │', class: 'terminal-bright' },
+    //     { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  [1] 🖥️  Terminal Portfolio' },
+    //     { type: 'output', content: '      A retro terminal-style portfolio with CRT effects' },
+    //     { type: 'output', content: '      Tech: React, GSAP, Tailwind CSS' },
+    //     { type: 'output', content: '      Status: ✓ Live' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  [2] 🛒 E-Commerce Platform' },
+    //     { type: 'output', content: '      Full-stack shopping experience with Stripe' },
+    //     { type: 'output', content: '      Tech: Next.js, Stripe, Supabase' },
+    //     { type: 'output', content: '      Status: ✓ Live' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  [3] 🤖 AI Chat Application' },
+    //     { type: 'output', content: '      Real-time AI conversations with streaming' },
+    //     { type: 'output', content: '      Tech: React, WebSocket, OpenAI GPT-4' },
+    //     { type: 'output', content: '      Status: ⚡ In Development' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  [4] 📊 Data Visualization Dashboard' },
+    //     { type: 'output', content: '      Interactive charts and analytics platform' },
+    //     { type: 'output', content: '      Tech: React, D3.js, PostgreSQL' },
+    //     { type: 'output', content: '      Status: ✓ Live' },
+    //   ]
+    // },
+    // projects: {
+    //   description: 'View my portfolio projects',
+    //   action: () => [
+    //     { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+    //     { type: 'output', content: '│                    PROJECTS                         │', class: 'terminal-bright' },
+    //     { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [1] TERMINAL PORTFOLIO', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ Interactive Linux-terminal themed portfolio', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: React, TypeScript, Vite, CSS3', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🟢 Live', class: 'terminal-green' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [2] JOBSYNC - JOB PORTAL', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ Full-stack job board with role-based auth', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: MERN Stack, Redux, JWT, Shadcn/UI', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🟢 Live', class: 'terminal-green' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [3] THIS IS MEGMA', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ 3D animated website with scroll animations', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: GSAP, Three.js, JavaScript, HTML5/CSS3', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🟢 Live', class: 'terminal-green' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [4] CHATPANDA CLONE', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ Animated AI chat interface with 3D elements', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: Next.js, GSAP, Three.js, Tailwind', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🟢 Live', class: 'terminal-green' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [5] LMS PLATFORM', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ Course platform with video streaming', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: MERN, Cloudinary, Redux, JWT, RBAC', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🔵 Completed', class: 'terminal-blue' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📁 [6] CUSTOM CMS PORTFOLIO', class: 'terminal-cyan' },
+    //     { type: 'output', content: '      └─ Dynamic portfolio with admin panel', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Tech: Next.js, MongoDB, Nodemailer, CRUD', class: 'terminal-dim' },
+    //     { type: 'output', content: '      └─ Status: 🔵 Deployed', class: 'terminal-blue' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  💡 Type \'project [number]\' for detailed view', class: 'terminal-yellow' },
+    //     { type: 'output', content: '  💡 Type \'projects --all\' for complete list', class: 'terminal-yellow' },
+    //   ]
+    // },
+
     projects: {
-      description: 'View projects',
+      description: 'Explore my projects portfolio',
       action: () => [
         { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
-        { type: 'output', content: '│                    PROJECTS                         │', class: 'terminal-bright' },
+        { type: 'output', content: '│                     PROJECTS                        │', class: 'terminal-bright' },
         { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  [1] 🖥️  Terminal Portfolio' },
-        { type: 'output', content: '      A retro terminal-style portfolio with CRT effects' },
-        { type: 'output', content: '      Tech: React, GSAP, Tailwind CSS' },
-        { type: 'output', content: '      Status: ✓ Live' },
+        { type: 'output', content: '  🖥️  [1] TERMINAL PORTFOLIO', class: 'terminal-cyan' },
+        { type: 'output', content: '      Interactive Linux-terminal themed portfolio', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: React, TypeScript, Vite, CSS3', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🟢 Live', class: 'terminal-green' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  [2] 🛒 E-Commerce Platform' },
-        { type: 'output', content: '      Full-stack shopping experience with Stripe' },
-        { type: 'output', content: '      Tech: Next.js, Stripe, Supabase' },
-        { type: 'output', content: '      Status: ✓ Live' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  [3] 🤖 AI Chat Application' },
-        { type: 'output', content: '      Real-time AI conversations with streaming' },
-        { type: 'output', content: '      Tech: React, WebSocket, OpenAI GPT-4' },
-        { type: 'output', content: '      Status: ⚡ In Development' },
+        { type: 'output', content: '  💼 [2] JOBSYNC - JOB PORTAL', class: 'terminal-cyan' },
+        { type: 'output', content: '      Full-stack job board with role-based authentication', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: MERN Stack, Redux, JWT, Shadcn/UI', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🟢 Live', class: 'terminal-green' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  [4] 📊 Data Visualization Dashboard' },
-        { type: 'output', content: '      Interactive charts and analytics platform' },
-        { type: 'output', content: '      Tech: React, D3.js, PostgreSQL' },
-        { type: 'output', content: '      Status: ✓ Live' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🎨 [3] THIS IS MEGMA', class: 'terminal-cyan' },
+        { type: 'output', content: '      3D animated website with scroll-triggered animations', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: GSAP, Three.js, JavaScript, HTML5/CSS3', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🟢 Live', class: 'terminal-green' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🤖 [4] CHATPANDA CLONE', class: 'terminal-cyan' },
+        { type: 'output', content: '      Animated AI chat interface with 3D elements', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: Next.js, GSAP, Three.js, Tailwind CSS', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🟢 Live', class: 'terminal-green' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🎓 [5] LMS PLATFORM', class: 'terminal-cyan' },
+        { type: 'output', content: '      Learning management system with video streaming', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: MERN Stack, Cloudinary, Redux, JWT', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🔵 Completed', class: 'terminal-blue' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  📊 [6] CUSTOM CMS PORTFOLIO', class: 'terminal-cyan' },
+        { type: 'output', content: '      Dynamic portfolio with admin content management', class: 'terminal-dim' },
+        { type: 'output', content: '      Tech: Next.js, MongoDB, Nodemailer, CRUD', class: 'terminal-dim' },
+        { type: 'output', content: '      Status: 🔵 Deployed', class: 'terminal-blue' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  💡 Type project [number] for detailed view', class: 'terminal-yellow' },
+        { type: 'output', content: '  💡 Example: project 2', class: 'terminal-yellow' },
       ]
     },
+
+    // contact: {
+    //   description: 'Contact information',
+    //   action: () => [
+    //     { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
+    //     { type: 'output', content: '│                    CONTACT                          │', class: 'terminal-bright' },
+    //     { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  📧 Email:      zaynobusiness@gmail.com' },
+    //     { type: 'output', content: '  🐙 GitHub:     https://github.com/hey-Zayn/' },
+    //     { type: 'output', content: '  💼 LinkedIn:   https://www.linkedin.com/in/zayn-butt/' },
+    //     // { type: 'output', content: '  🐦 Twitter:    @yourusername' },
+    //     { type: 'output', content: '  🌐 Website:    https://my-portfolio-zayn.vercel.app/' },
+    //     { type: 'output', content: '' },
+    //     { type: 'output', content: '  💬 Feel free to reach out for collaborations!' },
+    //   ]
+    // },
+
     contact: {
-      description: 'Contact information',
+      description: 'Get in touch with me',
       action: () => [
         { type: 'output', content: '┌─────────────────────────────────────────────────────┐', class: 'terminal-bright' },
-        { type: 'output', content: '│                    CONTACT                          │', class: 'terminal-bright' },
+        { type: 'output', content: '│                     CONTACT                         │', class: 'terminal-bright' },
         { type: 'output', content: '└─────────────────────────────────────────────────────┘', class: 'terminal-bright' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  📧 Email:      zaynobusiness@gmail.com' },
-        { type: 'output', content: '  🐙 GitHub:     https://github.com/hey-Zayn/' },
-        { type: 'output', content: '  💼 LinkedIn:   https://www.linkedin.com/in/zayn-butt/' },
-        // { type: 'output', content: '  🐦 Twitter:    @yourusername' },
-        { type: 'output', content: '  🌐 Website:    https://my-portfolio-zayn.vercel.app/' },
+        { type: 'output', content: '  📧  EMAIL', class: 'terminal-cyan' },
+        { type: 'output', content: '      zaynobusiness@gmail.com', class: 'terminal-dim' },
         { type: 'output', content: '' },
-        { type: 'output', content: '  💬 Feel free to reach out for collaborations!' },
+        { type: 'output', content: '  💼  LINKEDIN', class: 'terminal-cyan' },
+        { type: 'output', content: '      linkedin.com/in/zayn-butt', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🔗  GITHUB', class: 'terminal-cyan' },
+        { type: 'output', content: '      github.com/hey-Zayn', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🌐  PORTFOLIO', class: 'terminal-cyan' },
+        { type: 'output', content: '      my-portfolio-zayn.vercel.app', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  📱  PHONE', class: 'terminal-cyan' },
+        { type: 'output', content: '      +92 300-3636-186', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  🗺️   LOCATION', class: 'terminal-cyan' },
+        { type: 'output', content: '      Pakistan', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  💬  Feel free to reach out for:' },
+        { type: 'output', content: '      • Job opportunities and collaborations', class: 'terminal-dim' },
+        { type: 'output', content: '      • Technical discussions and projects', class: 'terminal-dim' },
+        { type: 'output', content: '      • Open source contributions', class: 'terminal-dim' },
+        { type: 'output', content: '' },
+        { type: 'output', content: '  ⚡  I typically respond within 24 hours', class: 'terminal-green' },
       ]
     },
+
     neofetch: {
       description: 'Display system information',
       action: () => [
@@ -176,8 +367,8 @@ const Terminal = () => {
           return [
             { type: 'output', content: '# Contact Information' },
             { type: 'output', content: '' },
-            { type: 'output', content: 'Email: your.email@example.com' },
-            { type: 'output', content: 'GitHub: github.com/yourusername' },
+            { type: 'output', content: 'Email: zaynobusiness@gamil.com' },
+            { type: 'output', content: 'GitHub: github.com/hey-Zayn' },
           ];
         }
         return [{ type: 'error', content: `cat: ${args[0]}: No such file or directory` }];
@@ -262,11 +453,11 @@ const Terminal = () => {
 
   const executeCommand = (cmd) => {
     const trimmedCmd = cmd.trim();
-    
+
     if (!trimmedCmd) return;
 
     const [command, ...args] = trimmedCmd.toLowerCase().split(' ');
-    
+
     setHistory(prev => [...prev, { type: 'command', content: cmd }]);
     setCommandHistory(prev => [...prev, cmd]);
     setHistoryIndex(-1);
@@ -286,9 +477,9 @@ const Terminal = () => {
         });
       }
     } else {
-      setHistory(prev => [...prev, 
-        { type: 'error', content: `bash: ${command}: command not found` },
-        { type: 'output', content: 'Type "help" for available commands.' }
+      setHistory(prev => [...prev,
+      { type: 'error', content: `bash: ${command}: command not found` },
+      { type: 'output', content: 'Type "help" for available commands.' }
       ]);
     }
   };
@@ -321,7 +512,7 @@ const Terminal = () => {
       }
     } else if (e.key === 'Tab') {
       e.preventDefault();
-      const matchingCommands = Object.keys(commands).filter(cmd => 
+      const matchingCommands = Object.keys(commands).filter(cmd =>
         cmd.startsWith(input.toLowerCase())
       );
       if (matchingCommands.length === 1) {
@@ -345,7 +536,7 @@ const Terminal = () => {
           </div>
 
           {/* Terminal Content */}
-          <div 
+          <div
             ref={terminalRef}
             className="p-6 min-h-[75vh] max-h-[75vh] overflow-y-auto font-mono text-sm md:text-base custom-scrollbar"
             onClick={() => !isBooting && inputRef.current?.focus()}
