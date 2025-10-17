@@ -45,11 +45,7 @@ npm run dev
 ```
 🎮 Available Commands
 
-![Terminal Preview](./public/help.png)
-help - Show available commands
-```
-help 
-```
+
 
 neofetch - Show specifications
 ```
@@ -58,6 +54,11 @@ neofetch
 ![Terminal Preview](./public/neofetch.png)
 
 
+help - Show available commands
+```
+help 
+```
+![Terminal Preview](./public/help.png)
 
 
 about - Learn about me
@@ -65,18 +66,22 @@ about - Learn about me
 
 about
 ```
+![Terminal Preview](./public/help.png)
+
+
 
 skills - View my technical skills
 
 ```
 skills 
 ```
-
+![Terminal Preview](./public/skills.png)
 
 projects - See my projects
 ```
 projects
 ```
+![Terminal Preview](./public/projects3.png)
 
 banner - Show welcome banner
 ```
