@@ -276,3 +276,12 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+
+
+.terminal-cyan { color: #00ffff; font-weight: bold; }
+.terminal-green { color: #00ff00; }
+.terminal-blue { color: #0088ff; }
+.terminal-yellow { color: #ffff00; }
+.terminal-dim { opacity: 0.7; }
+.terminal-bright { font-weight: bold; }

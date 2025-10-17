@@ -2,12 +2,12 @@
 
 <div align="center">
 
-![Terminal Preview](https://via.placeholder.com/800x400/0f0f0f/00ff00?text=Terminal+Portfolio+Preview) <!-- Replace with your actual screenshot -->
+![Terminal Preview](./public/terminal.png) <!-- Replace with your actual screenshot -->
 
-**A Linux-terminal inspired developer portfolio with interactive command-line interface**
+**A Linux-terminal inspired developer portfolio with an interactive command-line interface**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00ff00?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hey-Zayn)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00ff00?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-terminal-self.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hey-Zayn/Portfolio-Terminal)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zayn-butt)
 
 </div>
@@ -41,3 +41,35 @@ npm install
 
 # Start development server
 npm run dev
+
+```
+🎮 Available Commands
+
+
+help - Show available commands
+```
+help 
+```
+
+about - Learn about me
+```
+
+about
+```
+
+```
+skills - View my technical skills
+```
+
+```
+projects - See my projects
+```
+```
+experience - Check my work history
+```
+```
+contact - Get in touch
+```
+clear - Clear the terminal
+theme [name] - Change terminal theme
+```
