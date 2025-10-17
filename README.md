@@ -44,14 +44,27 @@ npm run dev
 
 ```
 🎮 Available Commands
+
+```
+help - Show available commands
+```
+```
+about - Learn about me
 ```
 
-help - Show available commands
-about - Learn about me
+```
 skills - View my technical skills
+```
+
+```
 projects - See my projects
+```
+```
 experience - Check my work history
+```
+```
 contact - Get in touch
+```
 clear - Clear the terminal
 theme [name] - Change terminal theme
 ```
