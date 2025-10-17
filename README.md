@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Terminal Preview](./terminal.png) <!-- Replace with your actual screenshot -->
-
+![Project Screenshot](./terminal.png)
 **A Linux-terminal inspired developer portfolio with interactive command-line interface**
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-00ff00?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-terminal-self.vercel.app/)
