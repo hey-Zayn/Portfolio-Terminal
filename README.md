@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Terminal Preview](./terminal.png) <!-- Replace with your actual screenshot -->
+![Terminal Preview](./public/terminal.png) <!-- Replace with your actual screenshot -->
 
 **A Linux-terminal inspired developer portfolio with an interactive command-line interface**
 
