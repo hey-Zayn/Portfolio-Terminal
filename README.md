@@ -44,9 +44,9 @@ npm run dev
 
 ```
 🎮 Available Commands
-
-```
 help - Show available commands
+```
+help 
 ```
 ```
 about - Learn about me
