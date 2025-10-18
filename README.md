@@ -99,5 +99,5 @@ clear - Clear the terminal
 clear
 ````
 
-theme [name] - Change terminal theme
+
 
